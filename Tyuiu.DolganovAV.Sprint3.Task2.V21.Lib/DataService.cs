@@ -8,7 +8,7 @@ namespace Tyuiu.DolganovAV.Sprint3.Task2.V21.Lib
             double sum = 0;
             do
             {
-                sum += Math.Pow((1 / (Math.Sin(startValue) + 2 * Math.Pow(value, 2))), startValue);
+                sum += Math.Pow((1 / (Math.Sin(startValue) + 2 * Math.Pow(value, startValue))), startValue);
                 startValue++;
             }
             while (startValue <= stopValue);
