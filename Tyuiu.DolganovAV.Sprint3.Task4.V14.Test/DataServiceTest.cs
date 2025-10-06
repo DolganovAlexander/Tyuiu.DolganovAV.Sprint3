@@ -11,7 +11,7 @@ namespace Tyuiu.DolganovAV.Sprint3.Task4.V14.Test
             int startValue = -5;
             int stopValue = 5;
             var res = ds.Calculate(startValue, stopValue);
-            Assert.AreEqual(0, res);
+            Assert.AreEqual(0.000, res);
         }
     }
 }

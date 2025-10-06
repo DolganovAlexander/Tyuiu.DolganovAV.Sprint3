@@ -9,7 +9,7 @@ namespace Tyuiu.DolganovAV.Sprint3.Task4.V14.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0) continue;
-                sum = sum + (Math.Cos(x) / Math.Sin(x));
+                sum += Math.Cos(x) / Math.Sin(x);
             }
             return Math.Round(sum, 3);
         }
