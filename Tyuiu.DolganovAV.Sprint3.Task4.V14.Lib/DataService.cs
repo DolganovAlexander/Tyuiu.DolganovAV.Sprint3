@@ -8,8 +8,8 @@ namespace Tyuiu.DolganovAV.Sprint3.Task4.V14.Lib
             double sum = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0) break;
-                else sum = sum + (Math.Cos(x) / Math.Sin(x));
+                if (x == 0) continue;
+                sum = sum + (Math.Cos(x) / Math.Sin(x));
             }
             return Math.Round(sum, 3);
         }
